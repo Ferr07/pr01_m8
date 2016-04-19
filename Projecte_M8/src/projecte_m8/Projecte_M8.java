@@ -18,9 +18,9 @@ public class Projecte_M8 {
      */
     public static void main(String[] args) {
         Scanner entrada = new Scanner (System.in);
-        System.out.println("introdueix 5 valors numerics");
+        System.out.println("introdueix 10 valors numerics");
         int n=0;
-        int array[]= new int[5];
+        int array[]= new int[10];
         int aux=0;
         int aux2=0;
         for (int i = 0; i < array.length; i++) {
@@ -28,11 +28,11 @@ public class Projecte_M8 {
             array[i]=n; 
             if(array[i]>aux){
                 aux=array[i];  
-//                aux2=aux;
+                aux2=aux;
             }
             
         }
-//        System.out.println("El numero mes Gran es "+ aux);
+        System.out.println("El numero mes Gran es "+ aux);
         System.out.println("");
         System.out.println(aux);
         System.out.println("Verifiquem resultats y imprimim en numero mes petit: ");
@@ -44,7 +44,7 @@ public class Projecte_M8 {
         }
         System.out.println("");
         System.out.println("Numero mes petit: "+aux);
-//        System.out.println("Numero mes Gran: "+aux2);
+        System.out.println("Numero mes Gran: "+aux2);
     }
     
 }
